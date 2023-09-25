@@ -169,7 +169,9 @@ vvs-ssb-stadtbahn,U6,,8-vvs020-u6,#ed028c,#ffffff,,rectangle
 vvs-ssb-stadtbahn,U7,,8-vvs020-u7,#0ab38d,#ffffff,,rectangle
 vvs-ssb-stadtbahn,U8,,8-vvs020-u8,#fed304,#000000,,rectangle
 vvs-ssb-stadtbahn,U9,,8-vvs020-u9,#bfb678,#000000,,rectangle
-hvv,$line,,^5\-hvv(?'op'hha|vhh)\-(?'line'[0-5,7-9]\d{0,2})$,#e30613,#ffffff,,hexagon
-hvv,$line,,^5\-hvv(?'op'hha|vhh)\-(?'line'[6]\d\d)$,#000000,#ffffff,,hexagon
-hvv,X$line,,^5\-hvv(?'op'hha|vhh)\-x(?'line'\d{0,2})$,#1e9738,#ffffff,,hexagon
-hvv,$line,,^6\-hvv(?'op'had)\-(?'line'[6-7]\d)$,#009ed4,#ffffff,,trapezoid
+hvv,$line,,"^5\-hvv(?'operator'hha|vhh)\-(?'line'[0-5,7-9]\d\d)$",#e30613,#ffffff,,hexagon
+hvv,$line,,"^5\-hvv(?'operator'hha|vhh)\-(?'line'[1-2]\d)$",#e30613,#ffffff,,hexagon
+hvv,$line,,"^5\-hvv(?'operator'hha|vhh)\-(?'line'\d)$",#e30613,#ffffff,,hexagon
+hvv,$line,,"^5\-hvv(?'operator'hha|vhh)\-(?'line'[6]\d\d)$",#000000,#ffffff,,hexagon
+hvv,X$line,,"^5\-hvv(?'operator'hha|vhh)\-x(?'line'\d{1,2})$",#1e9738,#ffffff,,hexagon
+hvv,$line,,"^6\-hvv(?'operator'had)\-(?'line'[6-7]\d)$",#009ed4,#ffffff,,trapezoid
